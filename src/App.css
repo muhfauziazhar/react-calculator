@@ -1,0 +1,44 @@
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-container-row {
+  display: flex;
+}
+
+button {
+  flex-basis: 25%;
+  font-size: 4rem;
+  text-align: center;
+  padding: 40px;
+  border: 1px solid black;
+  background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+  cursor: pointer;
+}
+
+.display {
+  color: white;
+  padding: 3rem;
+  background-color: #333333;
+  border: 1px solid black;
+  font-size: 3rem;
+}
+
+.operator {
+  background: orange;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
